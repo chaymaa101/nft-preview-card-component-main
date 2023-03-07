@@ -1,0 +1,10 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+section{
+    background-color: red;
+    width: 340px;
+}
+.main-img{
+    width: 300px;
+}
