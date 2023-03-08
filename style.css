@@ -5,27 +5,29 @@ body{
 section{
     background-color: hsl(216, 50%, 16%);
     width: 320px;
-    padding-left: 20px;
-    padding-top: 20px;
+    
     border-radius: 12px;
     font-family: 'Outfit',sans-serif;
 }
 .main-img{
     width: 300px;
-    border-radius: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius:20px;
 }
 h1{
     color: hsl(0, 0%, 100%);
     font-size: 20px;
     font-weight: 600;
+    padding-left: 20px;
 }
 p{
     color: hsl(215, 51%, 70%);
     font-weight: 300;
     padding-right: 20px;
+    padding-left: 20px;
 }
 .bloc{
-    background-color: rgb(1, 11, 19);
     display:  flex;
     flex-direction:row;
     justify-content: space-around;
@@ -36,16 +38,30 @@ p{
     
     display: flex;
     color: hsl(178, 100%, 50%)    ;
+    padding-right: 10px;
 }
 .item2{
-    
+    padding-left: 10px;
     display: flex;
     color: hsl(215, 51%, 70%);
 }
 .item1 img{
     margin-right: 8px;
-    /* margin-right: 20px; espace a l exterieur de l img */
+    /* margin-righ,t: 20px; espace a l exterieur de l img */
 }
 .item2 img{
     margin-right: 8px;
+}
+.item3 {
+    justify-content: center;
+    display:flex ;
+    gap: 12px;
+    align-items: center;
+    
+    font-weight: 300;
+    color: hsl(0, 0%, 100%) ;
+}
+span{
+    color: hsl(215, 51%, 70%);
+}
 }
