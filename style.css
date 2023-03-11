@@ -1,11 +1,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 body{
     background-color: hsl(217, 54%, 11%);
+    padding-left: 500px;
+    padding-top: 100px;
 }
 section{
     background-color: hsl(216, 50%, 16%);
     width: 320px;
-    
+
     border-radius: 12px;
     font-family: 'Outfit',sans-serif;
 }
